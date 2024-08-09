@@ -17,6 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
+            "sourceMap": true,
             "outputPath": "dist/standalone-angular-project",
             "index": "src/index.html",
             "browser": "src/main.ts",
@@ -38,6 +39,7 @@
           },
           "configurations": {
             "production": {
+              "sourceMap": true,
               "budgets": [
                 {
                   "type": "initial",
